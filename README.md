@@ -10,7 +10,7 @@ One of the target of this spesification is Flat File CMS.
 Store the files with these directory:
 
 ```
-[/<owner>]/<container>/<year>
+[/<owner>]/<container>/<year>[/<month>[/<date>]]
 ```
 
 ## Introduction
@@ -67,6 +67,7 @@ For internal reference in user pov.
 Before
 
 ```
+Documents/log-2024.txt
 DCIM/IMG_4291.MP4
 Downloads/WhatsApp Image 2024-02-01 at 21.12.59.jpeg
 Downloads/vlc-3.0.20-win64.exe
@@ -75,6 +76,7 @@ Downloads/vlc-3.0.20-win64.exe
 After using Ci Specification.
 
 ```
+documents/2024/log.txt
 gallery/2022/20240501_160104_IMG_4291.MP4
 gallery/2024/20240201_211259_WhatsApp Image.jpeg
 application-windows/2023/vlc-3.0.20-win64.exe
@@ -84,3 +86,17 @@ application-windows/2023/vlc-3.0.20-win64.exe
 
 `Ci` means water springs. It used most of the starts name of village or district
 in West of Java Island, Indonesia.
+
+## Inspiration
+
+`Ci` inspired from the Github repository name example:
+
+```
+github.com/ijortengab/ci
+```
+
+The path above is same as this pattern:
+
+```
+/<owner>/<container>/
+```
